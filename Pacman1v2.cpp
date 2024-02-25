@@ -3,7 +3,7 @@
 #include <conio.h>
 #include <stdio.h>
 #include <vector>
-
+//klavesy
 #define KB_UP 72
 #define KB_DOWN 80
 #define KB_LEFT 75
@@ -29,12 +29,12 @@ class Pacman
          char tvar;
 
     public:
-
+//konstruktor bezparametricky
        Pacman()
        {
 
        }
-
+//konstruktor parametricky
        Pacman(int vX, int vY, char vtvar)
        {
             x=vX;
@@ -42,7 +42,7 @@ class Pacman
             tvar=vtvar;
        }
 
-
+// zmeny suradnic
         void PohybDoPrava()
         {
             x++;
@@ -70,7 +70,7 @@ class Pacman
            cout <<tvar;
         }
 
-
+    //pohyb Pacman
        void pohybPackmana(bool &koniec)
 	   {
             int klaves;
