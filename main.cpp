@@ -104,7 +104,7 @@ int main()
 
    cout << "Vitaj u Pacmana" << endl;
    Pacman *p = new Pacman(5,5,'<');
-  //p->nakresliPacman();
+ // p->nakresliPacman();
    cout<<"Zadaj klavesu e - koniec"<<endl;
 
    while(jekoniec!=true)
