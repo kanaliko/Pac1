@@ -3,14 +3,14 @@
 #include <conio.h>
 #include <stdio.h>
 #include <vector>
-//klavesy
+//klavesy gotoxy
 #define KB_UP 72
 #define KB_DOWN 80
 #define KB_LEFT 75
 #define KB_RIGHT 77
 
 using namespace std;
-
+// poloha kurzora
 void gotoxy(short x, short y)
 {
 	HANDLE hConsoleOutput;
